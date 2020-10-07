@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="cont.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <button id="rev">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div id="submenu">
+          <p id="hom">
+          <a href="index.html"><i class="fa fa-home"></i></a>
+          </p>
+          <p>
+            <a href="News.html">News</a>
+          </p>
+          <p>
+            <a href="dt.html">Lesson</a>
+          </p>
+          <p>
+            <a href="dailytip.html">Daily tip</a>
+          </p>
+          <p>
+            <a href="coun.html">Counselling</a>
+          </p>
+          <p>
+            <a href="ab.html">About</a>
+          </p>
+        </div>
+         <script>
+          $(function() {
+    $("#rev").click(function() {
+        $("#submenu").slideToggle(500);
+    });
+}); 
+         </script>
+        <center><h1 id="top">Contacts</h1>
+        <p>Isaac Olayinka  <i class="fa fa-facebook"></i></br>
+        <a href="https://api.whatsapp.com/send?phone=2349059452955" id="back" target="_blank">+234 9059452955</a> <i class="fa fa-whatsapp"></i>
+        </p>
+        <p>Olusola Precious  <i class="fa fa-facebook"></i></br>
+         <a href="https://api.whatsapp.com/send?phone=2348122137834" id="back" target="_blank">+234 8122137834</a><i class="fa fa-whatsapp"></i>
+        </p>
+        <p>Peter Chinemerem Onugha  </br>
+        <a href="https://api.whatsapp.com/send?phone=2347089471667" id="back" target="_blank">+234 7089471667</a> <i class="fa fa-whatsapp"></i>
+        </p>
+       <p>Abumwenre Abieyuwa </br>
+        <a href="https://api.whatsapp.com/send?phone=2349022900498" id="back" target="_blank">+234 9022900498</a> <i class="fa fa-whatsapp"></i>
+        </p>
+        </center>
+      </div>
+    </div>
+     <div class="copyright">
+        &copyAll rights reserved,MyApp.com,2020
+     </div>
+  </body>
+  </html>

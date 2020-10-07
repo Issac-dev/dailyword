@@ -1,0 +1,73 @@
+#topR {
+  float: right;
+}
+#submenu {
+  display: none;
+}
+body {
+  background-image: url("IMG_20200929_005456_127.jpg");
+}
+table {
+  font-size: 15pt;
+}
+#tab {
+  border-radius: 10pt;
+  background-color: #ddf0f5;
+  border-color: #48cbec;
+}
+td {
+  height: 20pt;
+}
+#home {
+  width: 25pt;
+  font-size: 15pt;
+  text-align: center;
+}
+#more {
+  width: 40;
+}
+#meet {
+  width: 60pt;
+}
+#about {
+  width: 30pt;
+}
+#des {
+  text-align: center;
+  font-family: cursive;
+  font-size: 40pt;
+  text-shadow: 1pt 2pt 2pt;
+}
+img {
+  width: 220pt;
+  border-radius: 10pt;
+}
+#title {
+  text-align: left;
+  font-size: 40pt;
+  font-family: cursive;
+  text-shadow: 1pt 2pt 2pt;
+}
+#ref {
+  font-family: cursive;
+  font-size: 15pt;
+}
+#ret {
+  font-family: cursive;
+  font-size: 13pt;
+}
+#dark {
+  text-align: right;
+  font-size: 15pt;
+}
+.darkmode {
+  
+  background-image: none;
+  background-color: black;
+  color: #f21dcc;
+}
+.copyright {
+  text-align: right;
+  font-size: 13pt;
+  font-family: cursive,"Handlee";
+}

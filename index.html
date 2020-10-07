@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="dw.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <p id="dark">Darkmode🌙</p>
+    <script>
+      $(function() {
+    $("#dark").click(function() {
+        $("body").toggleClass("darkmode");
+    });
+});
+    </script>
+    <div class="container">
+      <div id="head">
+        <h1 id="title">Dailyword</h1>
+        <p id="ret">A daily guide for a joyful christian life✨</p>
+         <div id="topR">
+          <table border=2 id="tab">
+            <tr>
+              <td id="home"><a href="index.html"><i class="fa fa-home"></i></a></td>
+              <td id="more">
+                <div class="menu">
+                <div id="item">More</div>
+                <div id="submenu">
+                  <p><a href="News.html">News</a></p>
+                  <p>
+                    <a href="dailytip.html">Daily tip</a>
+                  </p>
+                  <p>
+                    <a href="dt.html">Lesson</a>
+                  </p>
+                  <p>
+                <a href="coun.html">Counselling</a>
+                 </p>
+               </div>
+              </div>
+                <script>
+                  $(function() {
+    $("#item").click(function() {
+        $("#submenu").slideToggle(500);
+    });
+}); 
+                </script>
+              </td>
+              <td id="meet">
+            <a href="cont.html">Contacts</a>
+              </td>
+              <td id="about">
+            <a href="ab.html">About</a>
+              </td>
+            </tr>
+          </table>
+          </div>
+        </div>
+       <div id="pic">
+      <h2 id="des">Todays Quote</h2>
+      <img src="1601777389321.jpg">
+      </div>
+      <marquee id="ref">You forgave the iniquity of your people and covered all their sins.
+Psalms 85:2 NIV✨</marquee>
+    </div>
+     <div class="copyright">
+        &copyAll rights reserved,MyApp.com,2020
+     </div>
+  </body>
+</html>

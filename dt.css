@@ -1,0 +1,35 @@
+button span {
+  background: black;
+  border-radius: 10pt 10pt;
+  width: 2em;
+  height: 5px;
+  margin: 6px;
+  display: block;
+}
+#hom {
+  font-size: 25pt;
+}
+#top {
+  font-family: cursive;
+  text-shadow: 1pt 2pt 2pt;
+  font-size: 40pt;
+}
+#submenu {
+  display: none;
+}
+#cont {
+  font-size: 15pt;
+  height: 200pt;
+  overflow: scroll;
+  font-weight: bold;
+  font-family: cursive;
+  font-size: 20pt;
+}
+body {
+  background-image: url("IMG_20200929_005456_127.jpg");
+}
+.copyright {
+  text-align: right;
+  font-size: 13pt;
+  font-family: cursive,"Handlee";
+}
